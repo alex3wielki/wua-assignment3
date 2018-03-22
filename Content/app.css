@@ -1,0 +1,193 @@
+html body {
+  background: #eee;
+  font-size: 100%;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  font-family: 'Roboto', sans-serif; }
+  html body p {
+    text-align: justify;
+    margin-bottom: 10px; }
+  html body h1,
+  html body h2,
+  html body h3,
+  html body h4,
+  html body h5 {
+    font-family: 'UnifrakturCook', serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 120%; }
+  html body h4,
+  html body h5 {
+    margin: 10px 0; }
+  html body img {
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px black; }
+  html body header h1 {
+    margin: 10px 0; }
+  @media (min-width: 640px) {
+    html body header img {
+      width: 550px; } }
+  @media (min-width: 1024px) {
+    html body header h1 {
+      font-size: 64px; }
+    html body header img {
+      width: 700px; } }
+  @media (min-width: 1920px) {
+    html body header img {
+      width: 900px; } }
+  html body ul {
+    margin: 10px auto;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    text-align: center; }
+    html body ul li {
+      display: inline-block;
+      margin: 7px 0; }
+      html body ul li a {
+        background: silver;
+        box-shadow: 1px 1px 5px #d1d1d1;
+        padding: 5px 7px;
+        text-decoration: none;
+        color: black;
+        border-radius: 5px;
+        transition-duration: 0.5s; }
+    html body ul li:hover a {
+      background: #d1d1d1;
+      box-shadow: 1px 1px 10px silver;
+      border-radius: 10px;
+      transition-duration: 0.5s; }
+  @media (min-width: 320px) {
+    html body nav ul li {
+      margin: 10px 2px; }
+      html body nav ul li a {
+        padding: 5px 10px; } }
+  @media (min-width: 360px) {
+    html body nav ul li {
+      margin: 10px 2px; }
+      html body nav ul li a {
+        padding: 10px 12px; } }
+  @media (min-width: 640px) {
+    html body nav ul li {
+      margin: 20px 10px; }
+      html body nav ul li a {
+        padding: 13px 24px; } }
+  @media (min-width: 1366px) {
+    html body nav ul li {
+      margin: 60px 20px; }
+      html body nav ul li a {
+        padding: 26px 56px; } }
+  html body h2 {
+    margin: 10px; }
+  html body main ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    html body main ol li .rightToImage h3 {
+      margin-top: 10px; }
+    html body main ol li .rightToImage p {
+      margin: 10px 0 0 0; }
+    html body main ol li .rightToImage .reviews {
+      margin: 10px 0 0 0;
+      max-height: 200px;
+      overflow: auto; }
+    html body main ol li .divider {
+      border: 1px solid black;
+      width: 85%;
+      margin: 20px auto; }
+  @media (min-width: 640px) {
+    html body main ol li {
+      position: relative; }
+      html body main ol li img {
+        margin: 0; }
+      html body main ol li .rightToImage {
+        position: absolute;
+        width: 40%;
+        right: 0;
+        top: 0; }
+        html body main ol li .rightToImage .reviews {
+          margin: 10px 0;
+          overflow: auto;
+          max-height: 150px; } }
+  @media (min-width: 750px) {
+    html body main ol li .rightToImage {
+      width: 55%; }
+      html body main ol li .rightToImage .reviews {
+        max-height: 200px; } }
+  @media (min-width: 1024px) {
+    html body main ol li {
+      font-size: 120%; }
+      html body main ol li img {
+        width: 400px; }
+      html body main ol li .rightToImage {
+        width: 50%;
+        top: 0;
+        left: 450px;
+        text-align: left; }
+        html body main ol li .rightToImage .reviews {
+          max-height: 400px;
+          overflow: auto; } }
+  @media (min-width: 1366px) {
+    html body main ol li .rightToImage {
+      width: 60%; } }
+  @media (min-width: 1920px) {
+    html body main h2 {
+      font-size: 300%;
+      margin: 30px 0; }
+    html body main ol li img {
+      width: 600px; }
+    html body main ol li .rightToImage {
+      width: 50%;
+      left: 650px; }
+      html body main ol li .rightToImage .reviews {
+        max-height: 1000px;
+        overflow: auto; } }
+  html body #overview p a {
+    text-decoration: none;
+    color: #555;
+    transition-duration: 0.3s; }
+  html body #overview p a:hover {
+    transition-duration: 0.3s;
+    color: darkgoldenrod; }
+  html body form label {
+    display: block;
+    margin: 10px 0 0 0; }
+  html body form input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 18px; }
+  html body form button {
+    margin: 10px 0 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    transition-duration: 0.5s; }
+  html body form button:hover {
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px black;
+    transition-duration: 0.5s; }
+  html body footer {
+    width: 100%; }
+    html body footer p {
+      background: #222;
+      color: #eee;
+      padding: 10px;
+      text-align: center; }
+  html body .controllers .toTop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    background: rgba(20, 20, 20, 0.5);
+    color: #eee;
+    padding: 5px;
+    border-radius: 10px; }
+  html body .controllers .toTop:hover {
+    background: #141414;
+    box-shadow: 1px 1px 10px black;
+    transition-duration: 0.5s; }
